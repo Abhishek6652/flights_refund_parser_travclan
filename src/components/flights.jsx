@@ -10,7 +10,7 @@ const SUPPLIERS = [
 ];
 
 // -- Update this to your deployed Cloud Run URL for production --
-const API_BASE = import.meta.env.FLIGHTS_PARSER || "http://localhost:8090";
+const API_BASE = import.meta.env.VITE_FLIGHTS_PARSER  || "http://localhost:8090";
 
 const STATUS = { idle: "idle", loading: "loading", success: "success", error: "error" };
 
